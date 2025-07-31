@@ -19,15 +19,20 @@ A web application that helps users design Azure Data Factory pipelines and gener
 
 1. Navigate to the backend directory:
 ```
-cd backend
+cd ./backend
 ```
 
 2. Install dependencies:
-```bash
+```
 pip install -r requirements.txt
 ```
- 
-3. Start the backend server:
+
+3. Install dependencies:
+```
+Rename .env_example to .env and add perplexity api key in it
+```
+
+4. Start the backend server:
 ```
 python app.py
 ```
@@ -35,17 +40,17 @@ python app.py
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
-```bash
-cd frontend
+```
+cd ./frontend
 ```
 
 2. Install dependencies:
-```bash
+```
 npm install
 ```
 
 3. Start the development server:
-```bash
+```
 npm start
 ```
  
